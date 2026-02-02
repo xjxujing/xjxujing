@@ -9,7 +9,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          user: ryohidaka
+          user: xjxujing
           template: classic
           base: header, activity, community, repositories
           plugin_languages: yes
